@@ -3,6 +3,8 @@ import Box from '@mui/material/Box';
 import Head from 'next/head';
 import Link from 'next/link';
 import CommentsParent from 'src/components/lms-page/comments';
+import LmsSearchBar from 'src/components/lms-search/LmsSearchBar';
+import { createIndexArray } from 'src/lib/lms-index';
 import { getPaths } from 'src/lib/paths';
 
 import lmspages from '../../../public/assets/lmspages.json';
@@ -103,6 +105,7 @@ export async function getStaticPaths() {
   // const { paths } = lmspages;
   // const filter = paths.filter(path => ["welcome", "web"].includes(path.params.page[0]))
   const { paths } = getPaths(LMS_CONTENT_PATH);
+  createIndexArray(LMS_CONTENT_PATH);
 
   return {
     paths,

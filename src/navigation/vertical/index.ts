@@ -26,30 +26,50 @@ const navigation: NavLink[] = [
     path: '/community',
   },
   {
-    title: 'News',
-    path: '/news',
+    title: 'Quests',
+    path: '/quests',
   },
   {
-    title: 'Jobs',
-    icon: BriefcaseOutline,
-    path: '/jobs',
+    title: 'Coding Challenges',
+    path: '/codingchallenges',
+  },
+  // {
+  //   title: 'News',
+  //   path: '/news',
+  // },
+  // {
+  //   title: 'Jobs',
+  //   icon: BriefcaseOutline,
+  //   path: '/jobs',
+  // },
+  // {
+  //   title: 'VS Battles',
+  //   path: '/battles',
+  // },
+  // {
+  //   title: 'Projects',
+  //   path: '/projects',
+  // },
+  // {
+  //   title: 'Achievements',
+  //   path: '/achievements',
+  // },
+  // {
+  //   title: 'Overflow',
+  //   path: '/overflow',
+  // },
+  {
+    title: 'Kanban',
+    path: '/kanban',
   },
   {
-    title: 'VS Battles',
-    path: '/battles',
+    title: 'Chat',
+    path: '/chat',
   },
-  {
-    title: 'Projects',
-    path: '/projects',
-  },
-  {
-    title: 'Achievements',
-    path: '/achievements',
-  },
-  {
-    title: 'Overflow',
-    path: '/overflow',
-  },
+  // {
+  //   title: '???',
+  //   path: '/congrats',
+  // },
 ];
 
 export default navigation;
